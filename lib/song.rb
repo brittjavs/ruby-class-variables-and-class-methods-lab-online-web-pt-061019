@@ -37,5 +37,10 @@ end
    end
    genre_hash
   end
-
+def self.artist_count
+  artist_hash ={}
+  @@artist.each do |artist|
+    artist_hash[artist]
+  end
+end
 end
