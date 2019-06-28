@@ -40,7 +40,7 @@ end
 def self.artist_count
   artist_hash ={}
   @@artists.each do |artist|
-    artist_hash[artist]
+    artist
   end
 end
 end
