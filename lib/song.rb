@@ -38,11 +38,3 @@ end
    genre_hash
   end
 end
-
-def self.artist_count
-  artist_hash = {}
-    @@artists.each do |artist|
-            binding.pry
-      artist_hash[artist] 
-    end
-end
